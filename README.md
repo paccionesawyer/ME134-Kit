@@ -2,9 +2,11 @@
 
 A breakdown of the components contained in the ME134 kit, and helpful code snippets.
 
-## Raspberry Pi Zero Kit (Self Purchased)
+## Boards
 
-### Getting Started
+### Raspberry Pi Zero Kit (Self Purchased)
+
+#### Getting Started
 
 1. Plug your SD Card into the Raspberry Pi
 2. Connect your peripherals to the Raspberry Pi Zero W ![Diagram of Peripheral Connections](./public/newDiagram.svg)
@@ -21,7 +23,7 @@ A breakdown of the components contained in the ME134 kit, and helpful code snipp
     * The registration can take a while to take affect ~15 minutes
 7. Again in the command line of the Raspberry Pi copy and paste the following line of code `sudo apt update -y && sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt dist-upgrade -y && sudo apt-get autoremove -y && sudo apt-get clean -y && sudo apt-get autoclean -y && sudo reboot`
 
-### Important Links and Information
+#### Important Links and Information
 
 * [Amazon Link](https://www.amazon.com/Vilros-Raspberry-Starter-Power-Premium/dp/B0748MPQT4)
 * [YouTube Tutorial](https://www.youtube.com/watch?v=Hdm26W9dHK0)
@@ -29,8 +31,6 @@ A breakdown of the components contained in the ME134 kit, and helpful code snipp
 * My Kit did not come with headers for the Raspberry Pi [Same in Reviews](https://www.amazon.com/Vilros-Raspberry-Kit-Premium-Essential-Accessories/dp/B0748NK116/ref=sr_1_5?crid=1KENGVI6UOIVY&dchild=1&keywords=pi+zero+w+kit&qid=1630359207&s=electronics&sprefix=pi+zero+w%2Celectronics%2C184&sr=1-5)
 
 [![Raspberry Pi Zero Pinout](./public/raspberry-pi-pinout.png)](https://pinout.xyz/)
-
-## Boards
 
 ### ESP32
 
