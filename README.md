@@ -4,9 +4,9 @@ A breakdown of the components contained in the ME134 kit, and helpful code snipp
 
 ## Boards
 
-### Raspberry Pi Zero Kit (Self Purchased)
+### Raspberry Pi Zero W Kit (Self Purchased)
 
-#### Getting Started
+#### Getting Started (RPi Zero W)
 
 1. Plug your SD Card into the Raspberry Pi
 2. Connect your peripherals to the Raspberry Pi Zero W ![Diagram of Peripheral Connections](./public/newDiagram.svg)
@@ -23,7 +23,7 @@ A breakdown of the components contained in the ME134 kit, and helpful code snipp
     * The registration can take a while to take affect ~15 minutes
 7. Again in the command line of the Raspberry Pi copy and paste the following line of code `sudo apt update -y && sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt dist-upgrade -y && sudo apt-get autoremove -y && sudo apt-get clean -y && sudo apt-get autoclean -y && sudo reboot`
 
-#### Important Links and Information
+#### Important Links and Information (RPi Zero W)
 
 * [Amazon Link](https://www.amazon.com/Vilros-Raspberry-Starter-Power-Premium/dp/B0748MPQT4)
 * [YouTube Tutorial](https://www.youtube.com/watch?v=Hdm26W9dHK0)
@@ -34,7 +34,9 @@ A breakdown of the components contained in the ME134 kit, and helpful code snipp
 
 ### ESP32
 
-#### Important Links and Information
+#### Getting Started (ESP32)
+
+#### Important Links and Information (ESP32)
 
 * [Amazon Link](https://www.amazon.com/ESP32-WROOM-32-Development-ESP-32S-Bluetooth-Arduino/dp/B084KWNMM4)
 * [Installing the ESP32 Board in Arduino IDE](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
@@ -46,7 +48,9 @@ A breakdown of the components contained in the ME134 kit, and helpful code snipp
 
 ### Raspberry Pi Servo Driver Hat
 
-#### Important Links and Information
+#### Getting Started  (Servo Hat)
+
+#### Important Links and Information (Servo Hat)
 
 * [Amazon Link](https://www.amazon.com/Waveshare-Servo-Driver-Raspberry-Resolution/dp/B07GYFTKZD)
 * [Pinout Diagram](https://pinout.xyz/pinout/waveshare_servo_driver_hat)
@@ -55,13 +59,19 @@ A breakdown of the components contained in the ME134 kit, and helpful code snipp
 
 ### Ultrasonic Distance Sensor - HC-SR04
 
+#### Getting Started (Ultrasonic)
+
 #### Important Links and Information
+
+#### Getting Started(Ultrasonic)
 
 * [Amazon Link](https://www.amazon.com/SainSmart-HC-SR04-Ranging-Detector-Distance/dp/B004U8TOE6)
 
 ### Lidar Sensor
 
-#### Important Links and Information
+#### Getting Started (Lidar)
+
+#### Important Links and Information (Lidar)
 
 * [Amazon Link](https://www.amazon.com/VL53L1X-Ranging-Distance-Measurement-Extension/dp/B08J1K9T5P/ref=sr_1_3?dchild=1&keywords=st+vl53l1x+lidar&qid=1630390129&sr=8-3)
 
@@ -69,7 +79,9 @@ A breakdown of the components contained in the ME134 kit, and helpful code snipp
 
 ### Lipo Battery - Ovonic
 
-#### Important Links and Information
+#### Getting Started (LiPo)
+
+#### Important Links and Information (LiPo)
 
 * [Amazon Link](https://www.amazon.com/OVONIC-1500mAh-Battery-Airplane-Truggy/dp/B07CV95YFN)
 
@@ -79,4 +91,13 @@ A breakdown of the components contained in the ME134 kit, and helpful code snipp
 
 ### Small Servo Motors
 
+#### Getting Started (Small Servo)
+
+#### Important Links and Information (Small Servo)
+
 ### Big Servo Motors
+
+#### Getting Started (Big Servo)
+
+#### Important Links and Information (Big Servo)
+
