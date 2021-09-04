@@ -20,8 +20,9 @@
    * You can use the `xTaskCreatePinnedToCore()` function to pin a specific task to a specific core
    * Using this method you can run two different tasks independently and simultaneously using the two cores. [/]
 3. The ESP32 Chip can run MicroPython; however, while running MicroPython you cannot take advantage of the Dual Cores
-4. To run the Servo Motors use `ESP32_Arduino_Servo_Library` made by `RoboticsBrno`.
-   * Download the repository and add it to your Arduino Libraries folder.
+4. To run the Servo Motors use `ServoESP32` made by `RoboticsBrno (Jaroslav Paral)`.
+   * Find it in the Library Manager `Sketch > Include Libraries > Manage Libraries`
+   * Alternatively Download the repository and add it to your Arduino Libraries folder.
 5. Getting Readings from the Distance Sensor
 6. Getting Readings from the Lidar Sensor
 
