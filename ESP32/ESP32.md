@@ -29,7 +29,7 @@
 5. Getting Readings from the [Distance Sensor](https://www.sparkfun.com/products/15569)
    * No library or demo code for this device, but examples can be found online!
    * Refer to this Wiring Diagram:
-   ![Example Wiring for Distance Sensor](./ESP32DistanceSensorWiring_bb.svg)
+![Example Wiring for Distance Sensor](./ESP32DistanceSensorWiring_bb.svg)
 6. Getting Readings from the Lidar Sensor
    * To get readings from the Lidar Sensor use the [Adafruit_VL53L0X Library](https://github.com/adafruit/Adafruit_VL53L0X)
    * To test if it is working open up **File > Examples > Adafruit_VL53L0X > vl53l0x** and upload to your Arduino wired up to the sensor
