@@ -34,6 +34,9 @@
         sudo chmod 777 -R Servo_Driver_HAT
         cd Servo_Driver_HAT/Raspberry\ Pi/
 
+4. Connect the hat to the top of the Raspberry Pi Zero
+5. Connect one or more servos to the hat, using the following diagram.
+
 ## Important Links and Information (RPi Zero W)
 
 * [Amazon Link](https://www.amazon.com/Vilros-Raspberry-Starter-Power-Premium/dp/B0748MPQT4)
