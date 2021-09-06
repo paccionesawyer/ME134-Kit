@@ -10,7 +10,29 @@
     * Connect to Tufts_Wireless
     * Don't Check for Updates (It won't work as there is one more step to connect to the internet)
     * Find the MAC Address of your Raspberry Pi and register it with Tufts Technology Services via the online Form
-5. Update the packages on your Raspberry Pi by opening a Terminal Window and entering the following line... `sudo apt update -y && sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt dist-upgrade -y && sudo apt-get autoremove -y && sudo apt-get clean -y && sudo apt-get autoclean -y && sudo reboot`
+5. Configure the following interface(s):
+    * I2C (For Controlling the [Servo Hat](https://www.waveshare.com/wiki/Servo_Driver_HAT))
+    * Serial (Optional)
+    * VNC (Optional)
+    * SI : Type `sudo raspi-config` into the command line and navigate to *3 Interface Options*
+6. Update the packages on your Raspberry Pi by opening a Terminal Window and entering the following line... `sudo apt update -y && sudo apt-get update -y && sudo apt-get upgrade -y`
+7. `sudo reboot`
+
+## Using the [Waveshare Servo Hat](https://www.waveshare.com/w/upload/1/1b/Servo_Driver_HAT_User_Manual_EN.pdf)
+
+1. I2C should be enabled (see **Getting Started** Number 5)
+2. Install the following libraries from the Terminal Window
+    * Using `sudo apt-get`
+      * `update`, `sudo apt-get upgrade`, `install python-pip `, `install python-smbus`, `install p7zip-full`
+    * Using `pip install`
+      * `RPi.GPIO`
+3. Download example files
+
+        sudo apt-get install p7zip-full
+        wget http://www.waveshare.net/w/upload/6/6c/Servo_Driver_HAT.7z
+        7zr x Servo_Driver_HAT.7z -r -o./Servo_Driver_HAT
+        sudo chmod 777 -R Servo_Driver_HAT
+        cd Servo_Driver_HAT/Raspberry\ Pi/
 
 ## Important Links and Information (RPi Zero W)
 
