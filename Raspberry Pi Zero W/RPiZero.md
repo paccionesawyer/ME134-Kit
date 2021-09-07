@@ -38,6 +38,7 @@
 5. Connect one or more servos to the hat, using the following diagram.
    * The LiPo Battery Pack is only necessary if you want to operate without connecting the Raspberry Pi to power.
    * In order to make a connection between the LiPo and green Terminal I soldered two jumper cables to the end of the connector provided to you.
+![Wiring Servo to RPI0](./WaveShareServoHat.svg)
 ![Soldered Connection](./LiPo/solderedConnector.jpg)
 
 ## Getting Readings from the [Lidar Sensor](https://learn.adafruit.com/adafruit-vl53l0x-micro-lidar-distance-sensor-breakout/python-circuitpython)
