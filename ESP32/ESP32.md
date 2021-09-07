@@ -24,16 +24,14 @@
    * To run the [Servo Motors](https://dronebotworkshop.com/esp32-servo/) use `ServoESP32` made by `RoboticsBrno (Jaroslav Paral)`.
    * Find it in the Library Manager `Sketch > Include Libraries > Manage Libraries`
    * Alternatively Download the repository and add it to your Arduino Libraries folder.
-   * Refer to this wiring diagram. The orange wire Control can be connected to any digital IO pin.
-![Example Wiring for Servo to ESP](./ESP32ServoWiring_bb.svg)
+   * Refer to this wiring diagram. The orange wire Control can be connected to any digital IO pin. ![Example Wiring for Servo to ESP](./ESP32ServoWiring_bb.svg)
 5. Getting Readings from the [Distance Sensor](https://www.sparkfun.com/products/15569)
    * No library or demo code for this device, but examples can be found online!
-   * Refer to this Wiring Diagram:
-![Example Wiring for Distance Sensor](./ESP32DistanceSensorWiring_bb.svg)
+   * Refer to this Wiring Diagram. ![Example Wiring for Distance Sensor](./ESP32DistanceSensorWiring_bb.svg)
 6. Getting Readings from the Lidar Sensor
    * To get readings from the Lidar Sensor use the [Adafruit_VL53L0X Library](https://github.com/adafruit/Adafruit_VL53L0X)
    * To test if it is working open up **File > Examples > Adafruit_VL53L0X > vl53l0x** and upload to your Arduino wired up to the sensor
-   * This sensor uses I2C communication. Refer to this Wiring Diagram to connect things up ![Example Wiring for Lidar to ESP](./ESP32LidarWiring_bb.png)
+   * This sensor uses I2C communication. Refer to this Wiring Diagram to connect things up ![Example Wiring for Lidar to ESP](./ESP32LidarWiring_bb.svg)
 
 ## Important Links and Information (ESP32) [/]
 
