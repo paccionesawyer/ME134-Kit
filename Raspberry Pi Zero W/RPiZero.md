@@ -59,7 +59,9 @@
       sensor.range
     ```
 
-3. Wiring Diagram ![Wiring Lidar to RPI0](./RPI0LidarWiring_bb.svg)
+3. Wiring Diagram
+        
+![Wiring Lidar to RPI0](./RPI0LidarWiring_bb.svg)
 
 ## Getting Readings from the Ultrasonic Sensor
 
