@@ -13,27 +13,35 @@
 
 1. Connecting to WiFi from
    * `File > Examples > WiFi (ESP32) > WiFiScan`
-   * `WiFi.macAddress()` returns the MAC Address of the device [/]
+   * `WiFi.macAddress()` returns the MAC Address of the device
 2. Using the [ESP32 Dual Cores](https://randomnerdtutorials.com/esp32-dual-core-arduino-ide/)
    * The ESP32 comes with 2 Xtensa 32-bit LX6 microprocessors, so it’s dual core: (Core 0 and Core 1)
    * To use core 0 you need to create tasks
    * You can use the `xTaskCreatePinnedToCore()` function to pin a specific task to a specific core
-   * Using this method you can run two different tasks independently and simultaneously using the two cores. [/]
+   * Using this method you can run two different tasks independently and simultaneously using the two cores.
 3. The ESP32 Chip can run [MicroPython](https://docs.micropython.org/en/latest/esp32/tutorial/intro.html#powering-the-board); however, while running MicroPython you cannot take advantage of the Dual Cores
 4. Using the Servo Motors
    * To run the [Servo Motors](https://dronebotworkshop.com/esp32-servo/) use `ServoESP32` made by `RoboticsBrno (Jaroslav Paral)`.
    * Find it in the Library Manager `Sketch > Include Libraries > Manage Libraries`
    * Alternatively Download the repository and add it to your Arduino Libraries folder.
-   * Refer to this wiring diagram. The orange wire Control can be connected to any digital IO pin. ![Example Wiring for Servo to ESP](./ESP32ServoWiring_bb.svg)
-5. Getting Readings from the [Distance Sensor](https://www.sparkfun.com/products/15569)
+   * Refer to this wiring diagram. The orange wire Control can be connected to any digital IO pin.
+
+![Example Wiring for Servo to ESP](./ESP32ServoWiring_bb.svg)
+
+5. Getting Readings from the [Ultrasonic Sensor](https://www.sparkfun.com/products/15569)
    * No library or demo code for this device, but examples can be found online!
-   * Refer to this Wiring Diagram. ![Example Wiring for Distance Sensor](./ESP32DistanceSensorWiring_bb.svg)
+   * Refer to this Wiring Diagram. 
+
+![Example Wiring for Distance Sensor](./ESP32DistanceSensorWiring_bb.svg)
+
 6. Getting Readings from the Lidar Sensor
    * To get readings from the Lidar Sensor use the [Adafruit_VL53L0X Library](https://github.com/adafruit/Adafruit_VL53L0X)
    * To test if it is working open up **File > Examples > Adafruit_VL53L0X > vl53l0x** and upload to your Arduino wired up to the sensor
-   * This sensor uses I2C communication. Refer to this Wiring Diagram to connect things up ![Example Wiring for Lidar to ESP](./ESP32LidarWiring_bb.svg)
+   * This sensor uses I2C communication. Refer to this Wiring Diagram to connect things up
 
-## Important Links and Information (ESP32) [/]
+![Example Wiring for Lidar to ESP](./ESP32LidarWiring_bb.svg)
+
+## Important Links and Information (ESP32)
 
 * [Amazon Link](https://www.amazon.com/ESP32-WROOM-32-Development-ESP-32S-Bluetooth-Arduino/dp/B084KWNMM4)
 * [Installing the ESP32 Board in Arduino IDE](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
@@ -45,4 +53,4 @@
 * [Getting Readings from Ultrasonic Distance Sensor](https://randomnerdtutorials.com/esp32-hc-sr04-ultrasonic-arduino/)
 * [Getting Readings from Lidar](https://learn.adafruit.com/adafruit-vl53l0x-micro-lidar-distance-sensor-breakout/arduino-code)
 
-[![ESP32 Pinout](../public/esp32DEVKIT.jpg)](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
+[![ESP32 Pinout](./esp32DEVKIT.jpg)](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
