@@ -1,22 +1,39 @@
 # Raspberry Pi Zero W
 
+You will have to solder the pins on to the board yourself, [Nolop](https://nolop.org/solder/) has access to several soldering stations.
+
 ## Getting Started
 
 1. Plug your SD Card into the Raspberry Pi
-2. Connect your peripherals to the Raspberry Pi Zero W ![Diagram of Peripheral Connections](../public/newDiagram.svg)
+2. Connect your peripherals to the Raspberry Pi Zero W
    * Plug the power cable in last
+   * The EPDC located in the SEC has computers, physically re-route the peripherals from one of the computers there to your Raspberry Pi Zero 
 3. Wait - This part may take a bit of time, if it takes longer than 10 minutes. Disconnect the power cable and then reconnect
 4. Follow the instructions in the dialog box, keeping the following in mind if you plan on connect to WiFi on Tufts Campus...
     * Connect to Tufts_Wireless
     * Don't Check for Updates (It won't work as there is one more step to connect to the internet)
-    * Find the MAC Address of your Raspberry Pi and register it with Tufts Technology Services via the online Form
+    * Type `ifconfig wlan0` into the terminal window to find the MAC Address of your Raspberry Pi and register it with Tufts Technology Services via the online form.
 5. Configure the following interface(s):
     * I2C (For Controlling the [Servo Hat](https://www.waveshare.com/wiki/Servo_Driver_HAT))
     * Serial (Optional)
     * VNC (Optional)
-    * SI : Type `sudo raspi-config` into the command line and navigate to *3 Interface Options*
+    * Type `sudo raspi-config` into the command line and navigate to *3 Interface Options*
 6. Update the packages on your Raspberry Pi by opening a Terminal Window and entering the following line... `sudo apt update -y && sudo apt-get update -y && sudo apt-get upgrade -y`
 7. `sudo reboot`
+
+![Diagram of Peripheral Connections](./RPIconnectionDiagram.svg)
+
+## Getting Started [Without a Monitor](http://andnowforelectronics.com/notes/rpi-setup/)
+
+1. You will need an additional component a USB-serial adapter, AKA a console cable, and the ability to write to an SD card.
+2. Using the Raspberry Pi Imager, burn a Raspberry Pi OS (32-bit) to a microSD card.
+3. Edit config.txt on micro-SD card to include: ‘enable_uart = 1’ at the end of the file.
+4. Connect RPi to computer with console cable
+5. Put micro-SD card in slot of Pi, then Open Putty (Windows) or Terminal (macOS)
+6. Start a Serial session at 115200 bps to the Pi
+7. Connect Micro-USB power cable
+8. Log in with username `pi` and password `raspberry`
+9. Run `sudo raspi-config` to set up your wireless connection and enable I2C, SSH and VNC.
 
 ## Using the [Waveshare Servo Hat](https://www.waveshare.com/w/upload/1/1b/Servo_Driver_HAT_User_Manual_EN.pdf)
 
@@ -40,6 +57,10 @@
    * In order to make a connection between the LiPo and green Terminal I soldered two jumper cables to the end of the connector provided to you.
 ![Wiring Servo to RPI0](./WaveShareServoHat.svg)
 ![Soldered Connection](./LiPo/solderedConnector.jpg)
+6. The LiPo Battery Pack is only necessary if you want to operate without connecting the Raspberry Pi to power.
+    *	To make a connection between the LiPo and green terminal I soldered two jumper cables to the end of the connector.
+    *	When attaching your LiPo Battery to the Waveshare Servo Hat make sure the Red wire attaches to VIN and the Black Wire Attaches to GND
+    *	CAUTION: IF USING THE LIPO BATTERY SEE THE SECTION ON SAFETY PROCEDURES AT THE END OF THIS SHEET
 
 ## Getting Readings from the [Lidar Sensor](https://learn.adafruit.com/adafruit-vl53l0x-micro-lidar-distance-sensor-breakout/python-circuitpython)
 
@@ -60,12 +81,23 @@
     ```
 
 3. Wiring Diagram
-        
+   * Pi 3V3 to sensor VIN (red wire on STEMMA QT version)
+   * Pi GND to sensor GND (black wire on STEMMA QT version)
+   * Pi SCL to sensor SCL (yellow wire on STEMMA QT version)
+   * Pi SDA to sensor SDA (blue wire on STEMMA QT version)
+
 ![Wiring Lidar to RPI0](./RPI0LidarWiring_bb.svg)
 
 ## Getting Readings from the Ultrasonic Sensor
 
 Like with the ESP32, there is no specific package used to manage the Ultrasonic Sensor HC-SR04. Instead you should wire it up as shown below and look for example code on the [internet](https://pimylifeup.com/raspberry-pi-distance-sensor/)!
+
+* VCC Connects to Pin 2 (5v)
+* Trig Connects to Pin 7 (GPIO 4)
+* Echo Connects to R1 (1k Ω)
+* R2 (2k Ω) Connects from R1 to Ground
+* Wire from R1 and R2 connects to Pin 11
+* GND connects to Pin 6 (Ground)
 
 ![Wiring HC-SR04 to RPI0](./RPI0UltrasonicWiring_bb.svg)
 
@@ -77,8 +109,8 @@ Like with the ESP32, there is no specific package used to manage the Ultrasonic 
 * My Kit did not come with headers for the Raspberry Pi [Same in Reviews](https://www.amazon.com/Vilros-Raspberry-Kit-Premium-Essential-Accessories/dp/B0748NK116/ref=sr_1_5?crid=1KENGVI6UOIVY&dchild=1&keywords=pi+zero+w+kit&qid=1630359207&s=electronics&sprefix=pi+zero+w%2Celectronics%2C184&sr=1-5)
 * [Using the Servo Motor](https://www.waveshare.com/w/upload/1/1b/Servo_Driver_HAT_User_Manual_EN.pdf)
 * [Getting Readings from Lidar Sensor](https://learn.adafruit.com/adafruit-vl53l0x-micro-lidar-distance-sensor-breakout/python-circuitpython)
-* [Datasheet of Lidar](https://cdn-learn.adafruit.com/assets/assets/000/037/547/original/en.DM00279086.pdf)
+<!-- * [Datasheet of Lidar](https://cdn-learn.adafruit.com/assets/assets/000/037/547/original/en.DM00279086.pdf) -->
 * [Getting Readings from the Ultrasonic Sensor](https://pimylifeup.com/raspberry-pi-distance-sensor/)
-* [Datasheet of Ultrasonic Sensor](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)
+<!-- * [Datasheet of Ultrasonic Sensor](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf) -->
 
-[![Raspberry Pi Zero Pinout](../public/raspberry-pi-pinout.png)](https://pinout.xyz/)
+[![Raspberry Pi Zero Pinout](./raspberry-pi-pinout.png)](https://pinout.xyz/)
