@@ -25,7 +25,7 @@ You will have to solder the pins on to the board yourself, [Nolop](https://nolop
 6. Update the packages on your Raspberry Pi by opening a Terminal Window and entering the following line... `sudo apt update -y && sudo apt-get update -y && sudo apt-get upgrade -y`
 7. `sudo reboot`
 
-![Diagram of Peripheral Connections](./RPI0_W/RPIconnectionDiagram.svg)
+![Diagram of Peripheral Connections](./RPi0_W/RPIconnectionDiagram.svg)
 
 ### Getting Started [Without a Monitor](http://andnowforelectronics.com/notes/rpi-setup/)
 
@@ -51,7 +51,7 @@ You will have to solder the pins on to the board yourself, [Nolop](https://nolop
 
         sudo apt-get install p7zip-full
         wget http://www.waveshare.net/w/upload/6/6c/Servo_Driver_HAT.7z
-        7zr x Servo_Driver_HAT.7z -r -o./RPI0_W/Servo_Driver_HAT
+        7zr x Servo_Driver_HAT.7z -r -o./RPi0_W/Servo_Driver_HAT
         sudo chmod 777 -R Servo_Driver_HAT
         cd Servo_Driver_HAT/Raspberry\ Pi/
 
@@ -59,8 +59,8 @@ You will have to solder the pins on to the board yourself, [Nolop](https://nolop
 5. Connect one or more servos to the hat, using the following diagram.
    * The LiPo Battery Pack is only necessary if you want to operate without connecting the Raspberry Pi to power.
    * In order to make a connection between the LiPo and green Terminal I soldered two jumper cables to the end of the connector provided to you.
-![Wiring Servo to RPI0](./RPI0_W/WaveShareServoHat.svg)
-![Soldered Connection](./RPI0_W/LiPo/solderedConnector.jpg)
+![Wiring Servo to RPI0](./RPi0_W/WaveShareServoHat.svg)
+![Soldered Connection](./RPi0_W/LiPo/solderedConnector.jpg)
 6. The LiPo Battery Pack is only necessary if you want to operate without connecting the Raspberry Pi to power.
     *	To make a connection between the LiPo and green terminal I soldered two jumper cables to the end of the connector.
     *	When attaching your LiPo Battery to the Waveshare Servo Hat make sure the Red wire attaches to VIN and the Black Wire Attaches to GND
@@ -90,7 +90,7 @@ You will have to solder the pins on to the board yourself, [Nolop](https://nolop
    * Pi SCL to sensor SCL (yellow wire on STEMMA QT version)
    * Pi SDA to sensor SDA (blue wire on STEMMA QT version)
 
-![Wiring Lidar to RPI0](./RPI0_W/RPI0LidarWiring_bb.svg)
+![Wiring Lidar to RPI0](./RPi0_W/RPI0LidarWiring_bb.svg)
 
 ### Getting Readings from the Ultrasonic Sensor
 
@@ -103,7 +103,7 @@ Like with the ESP32, there is no specific package used to manage the Ultrasonic 
 * Wire from R1 and R2 connects to Pin 11
 * GND connects to Pin 6 (Ground)
 
-![Wiring HC-SR04 to RPI0](./RPI0_W/RPI0UltrasonicWiring_bb.svg)
+![Wiring HC-SR04 to RPI0](./RPi0_W/RPI0UltrasonicWiring_bb.svg)
 
 ### Important Links and Information (RPi Zero W)
 
@@ -117,7 +117,7 @@ Like with the ESP32, there is no specific package used to manage the Ultrasonic 
 * [Getting Readings from the Ultrasonic Sensor](https://pimylifeup.com/raspberry-pi-distance-sensor/)
 <!-- * [Datasheet of Ultrasonic Sensor](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf) -->
 
-[![Raspberry Pi Zero Pinout](./RPI0_W/raspberry-pi-pinout.png)](https://pinout.xyz/)
+[![Raspberry Pi Zero Pinout](./RPi0_W/raspberry-pi-pinout.png)](https://pinout.xyz/)
 
 ## Coding on the Raspberry Pi
 
