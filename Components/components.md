@@ -17,6 +17,10 @@ Lithium Polymer (aka "LiPo") batteries are a type of battery now used in many co
 * Never charge a LiPo battery while inside your model or other electronic device
 * [More Information](https://www.genstattu.com/blog/lipo-lithium-battery-safety-guide)
 
+## Lidar Sensor
+
+![LidarAccuracy](./lidarAccuracyTable.PNG)
+
 ## Datasheets
 
 * [Datasheet for Lidar](https://cdn-learn.adafruit.com/assets/assets/000/037/547/original/en.DM00279086.pdf)
