@@ -14,3 +14,12 @@ Lithium Polymer (aka "LiPo") batteries are a type of battery now used in many co
 * Do not charge batteries near flammable products or liquids.
 * Never charge a LiPo battery while inside your model or other electronic device
 * [More Information](https://www.genstattu.com/blog/lipo-lithium-battery-safety-guide)
+
+## Datasheets
+
+* [Datasheet for Lidar](https://github.com/paccionesawyer/ME134-Kit#:~:text=from%20Lidar%20Sensor-,Datasheet%20of%20Lidar,-Getting%20Readings%20from)
+* [Datasheet for Ultrasonic Sensor](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)
+* [Datasheet for Raspberry Pi Zero W](https://www.electronicsdatasheets.com/datasheet/RPI-ZERO-V1_3_reduced.pdf)
+* [Datasheet for ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
+* [Datasheet for Servo Driver Hat](https://www.waveshare.com/w/upload/1/1b/Servo_Driver_HAT_User_Manual_EN.pdf)
+* [Data Sheet for Servo Motors](http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf)
