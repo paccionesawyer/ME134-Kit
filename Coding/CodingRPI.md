@@ -24,6 +24,6 @@ The Geany interface looks like this: This is standard for a code editor. You’l
 There is one small edit you will want to make in order to have your python programs run with `python3`. Create a new file by going to *File > New (Ctrl + N)*, then save it by going to *File > Save As…* and name it **test.py**. Now go to *Build > Set Build Commands* and edit the two boxes show in red to the right by replacing `python` with `python3`. What this does is run python3 instead of python2 when executing the program. To run a program simply click the paper airplane shown below.
 [Learn More](https://raspberrytips.com/use-geany-on-raspberry-pi/)
 
-![RunningProgram](./runProgram.png)
+![RunningProgram](./runProgram.PNG)
 
 For even more information on other Raspberry Pi IDEs checkout [this article by Dzone.](https://dzone.com/articles/best-raspberry-pi-ides)
