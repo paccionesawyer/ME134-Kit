@@ -207,15 +207,17 @@ For even more information on other Raspberry Pi IDEs checkout [this article by D
 
 [![ESP32 Pinout](./ESP32/esp32DEVKIT.jpg)](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
 
-## LiPo Battery Information
+## Additional Kit Information
+
+### LiPo Battery Information
 
 Lithium Polymer (aka "LiPo") batteries are a type of battery now used in many consumer electronic devices. In the past few years, they have become more and more popular in the radio control industry and are now the most popular choice for anyone looking for long runtimes and high power. In fact, most phones today will use a LiPo Battery. However, the LiPo Batteries we will be using do not have the same safety mechanisms built into it. All that means is you should treat this battery with a bit more caution.
 
-### Kit Specific
+#### Kit Specific
 
 * When attaching your LiPo Battery to the Waveshare Servo Hat make sure the red wire attaches to VIN and the Black Wire Attaches to GND.
 
-### General
+#### General
 
 * Do not puncture your LiPo Battery
 * Keep your LiPo Battery Away from sources of heat (Don’t leave it in the sun)

@@ -1,12 +1,14 @@
-# LiPo Battery Information
+# Additional Kit Information
+
+## LiPo Battery Information
 
 Lithium Polymer (aka "LiPo") batteries are a type of battery now used in many consumer electronic devices. In the past few years, they have become more and more popular in the radio control industry and are now the most popular choice for anyone looking for long runtimes and high power. In fact, most phones today will use a LiPo Battery. However, the LiPo Batteries we will be using do not have the same safety mechanisms built into it. All that means is you should treat this battery with a bit more caution.
 
-## Kit Specific
+### Kit Specific
 
 * When attaching your LiPo Battery to the Waveshare Servo Hat make sure the red wire attaches to VIN and the Black Wire Attaches to GND.
 
-## General
+### General
 
 * Do not puncture your LiPo Battery
 * Keep your LiPo Battery Away from sources of heat (Don’t leave it in the sun)
@@ -17,7 +19,7 @@ Lithium Polymer (aka "LiPo") batteries are a type of battery now used in many co
 
 ## Datasheets
 
-* [Datasheet for Lidar](https://github.com/paccionesawyer/ME134-Kit#:~:text=from%20Lidar%20Sensor-,Datasheet%20of%20Lidar,-Getting%20Readings%20from)
+* [Datasheet for Lidar](https://cdn-learn.adafruit.com/assets/assets/000/037/547/original/en.DM00279086.pdf)
 * [Datasheet for Ultrasonic Sensor](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)
 * [Datasheet for Raspberry Pi Zero W](https://www.electronicsdatasheets.com/datasheet/RPI-ZERO-V1_3_reduced.pdf)
 * [Datasheet for ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
