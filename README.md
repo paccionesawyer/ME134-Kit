@@ -228,7 +228,7 @@ Lithium Polymer (aka "LiPo") batteries are a type of battery now used in many co
 
 ### Lidar Sensor
 
-![LidarAccuracy](./components/lidarAccuracyTable.PNG)
+![LidarAccuracy](./Components/lidarAccuracyTable.PNG)
 
 ### Datasheets
 
