@@ -9,7 +9,7 @@ If you are interested in coding directly on the Raspberry Pi, there are a ton of
 
 The Thonny IDE is a bit simpler, and their website has a ton of simple documentation, so I’ve linked it above. You’ll type source code in the main section, the bottom section is a terminal display, and the top are all the buttons to run your program. The biggest advantage is the built-in debugger, which allows you to step through your either line by line or by stopping at breakpoints in the code. This is essential when our code starts to get much larger. [Learn More](https://learn.sparkfun.com/tutorials/python-programming-tutorial-getting-started-with-the-raspberry-pi/hello-world).
 
-![Thonny IDE Screen](./thonny-screen.png)
+![Thonny IDE Screen](./thonny-screen.PNG)
 
 ## Geany IDE
 
