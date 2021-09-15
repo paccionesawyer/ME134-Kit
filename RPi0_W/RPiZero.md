@@ -17,23 +17,21 @@ You will have to solder the pins on to the board yourself, [Nolop](https://nolop
     * I2C (For Controlling the [Servo Hat](https://www.waveshare.com/wiki/Servo_Driver_HAT))
     * Serial (Optional)
     * VNC (Optional)
+    * SSH (Optional)
     * Type `sudo raspi-config` into the command line and navigate to *3 Interface Options*
 6. Update the packages on your Raspberry Pi by opening a Terminal Window and entering the following line... `sudo apt update -y && sudo apt-get update -y && sudo apt-get upgrade -y`
 7. `sudo reboot`
 
 ![Diagram of Peripheral Connections](./RPIconnectionDiagram.svg)
 
-## Getting Started [Without a Monitor](http://andnowforelectronics.com/notes/rpi-setup/)
+## Getting Started [Without a Monitor](https://howchoo.com/pi/raspberry-pi-gadget-mode)
 
-1. You will need an additional component a USB-serial adapter, AKA a console cable, and the ability to write to an SD card.
-2. Using the Raspberry Pi Imager, burn a Raspberry Pi OS (32-bit) to a microSD card.
-3. Edit config.txt on micro-SD card to include: ‘enable_uart = 1’ at the end of the file.
-4. Connect RPi to computer with console cable
-5. Put micro-SD card in slot of Pi, then Open Putty (Windows) or Terminal (macOS)
-6. Start a Serial session at 115200 bps to the Pi
-7. Connect Micro-USB power cable
-8. Log in with username `pi` and password `raspberry`
-9. Run `sudo raspi-config` to set up your wireless connection and enable I2C, SSH and VNC.
+1. Flash Raspberry PI OS onto your [SD Card](https://howchoo.com/pi/install-raspberry-pi-os)
+2. Edit config.txt on the boot partition and append `dtoverlay=dwc2`
+3. Enable SSH, on the command line in the boot directory type `touch ssh`
+4. Edit `cmdline.txt` Look for `rootwait`, and add `modules-load=dwc2,g_ether` immediately after. Save and Exit
+5. Connect over USB and boot the Pi
+
 
 ## Using the [Waveshare Servo Hat](https://www.waveshare.com/w/upload/1/1b/Servo_Driver_HAT_User_Manual_EN.pdf)
 
