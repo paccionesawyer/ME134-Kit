@@ -6,7 +6,8 @@ Lithium Polymer (aka "LiPo") batteries are a type of battery now used in many co
 
 ### Kit Specific
 
-* When attaching your LiPo Battery to the Waveshare Servo Hat make sure the red wire attaches to VIN and the Black Wire Attaches to GND.
+* When attaching your LiPo Battery to the WaveShare Servo Hat make sure the red wire attaches to VIN and the Black Wire Attaches to GND.
+* Always attach the wires of the LiPo Battery Connector to the green terminal FIRST and then attach the LiPo Battery itself.
 
 ### General
 

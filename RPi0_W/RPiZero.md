@@ -1,6 +1,6 @@
 # Raspberry Pi Zero W
 
-You will have to solder the pins on to the board yourself, [Nolop](https://nolop.org/solder/) has access to several soldering stations.
+You will have to solder the pins on to the board yourself, [Nolop](https://nolop.org/solder/) has access to several soldering stations. To interface with the Servo Hat, solder [MALE Pin headers](../public/male-pin-headers.jpg) to your board.
 
 ## Getting Started
 
@@ -31,7 +31,17 @@ You will have to solder the pins on to the board yourself, [Nolop](https://nolop
 3. Enable SSH, on the command line in the boot directory type `touch ssh`
 4. Edit `cmdline.txt` Look for `rootwait`, and add `modules-load=dwc2,g_ether` immediately after. Save and Exit
 5. Connect over USB and boot the Pi
+6. Follow the above instructions starting at 4.
 
+## USING the Raspberry Pi Without a Monitor
+
+1. First complete one of the getting started paths described above.
+2. SSH MUST be enabled on your Raspberry Pi
+3. Connect your computer to the same WiFi as your Pi.
+4. Find the IP Address of your Pi on your local WiFi (On Tufts Wireless go to your Device Registration)
+   * From the Pi, run `ifconfig` again and get the IP address
+5. From your computer you can now *SSH Into Your Pi*
+    * `ssh -l pi@<Your Pi’s IP Address>`
 
 ## Using the [Waveshare Servo Hat](https://www.waveshare.com/w/upload/1/1b/Servo_Driver_HAT_User_Manual_EN.pdf)
 
@@ -51,6 +61,7 @@ You will have to solder the pins on to the board yourself, [Nolop](https://nolop
 
 4. Connect the hat to the top of the Raspberry Pi Zero
 5. Connect one or more servos to the hat, using the following diagram.
+   * **Every time you connect a servo to the Raspberry Pi it will restart**
    * The LiPo Battery Pack is only necessary if you want to operate without connecting the Raspberry Pi to power.
    * In order to make a connection between the LiPo and green Terminal I soldered two jumper cables to the end of the connector provided to you.
 ![Wiring Servo to RPI0](./WaveShareServoHat.svg)
