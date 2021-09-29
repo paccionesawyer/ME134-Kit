@@ -22,6 +22,10 @@ Lithium Polymer (aka "LiPo") batteries are a type of battery now used in many co
 
 ![LidarAccuracy](./lidarAccuracyTable.PNG)
 
+## [Level Converter MH](https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide/all)
+
+## [ADC PGA](https://learn.adafruit.com/adafruit-4-channel-adc-breakouts/)
+
 ## Datasheets
 
 * [Datasheet for Lidar](https://cdn-learn.adafruit.com/assets/assets/000/037/547/original/en.DM00279086.pdf)
