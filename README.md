@@ -201,6 +201,14 @@ For even more information on other Raspberry Pi IDEs checkout [this article by D
 
 ![Example Wiring for Lidar to ESP](./ESP32/ESP32LidarWiring_bb.svg)
 
+7. Getting Readings from the [MPU9250](https://github.com/bolderflight/MPU9250)
+   * To get readings from the ESP32 I used the library made by [Bolder Flight](https://github.com/bolderflight/MPU9250)
+   * It can be found in the Arduino Library Manager called `Sketch > Include Libraries > Manage Libraries > Bolder Flight Systems MPU9250` Version 1.0.1
+   * To test if it is working open **File > Examples > Bolder Flight Systems MPU9250 > Basic_I2C** and upload to your Arduino wired up to the sensor. The numbers will appear in Serial.
+   * This sensor uses I2C communication. Refer to this Wiring Diagram to connect things up
+
+![Example Wiring for MPU9250 to ESP](./ESP32/ESP32MPU9250Wiring_bb.svg)
+
 ### Important Links and Information (ESP32)
 
 * [Amazon Link](https://www.amazon.com/ESP32-WROOM-32-Development-ESP-32S-Bluetooth-Arduino/dp/B084KWNMM4)
@@ -212,6 +220,7 @@ For even more information on other Raspberry Pi IDEs checkout [this article by D
 * [Controlling Servos](https://dronebotworkshop.com/esp32-servo/)
 * [Getting Readings from Ultrasonic Distance Sensor](https://randomnerdtutorials.com/esp32-hc-sr04-ultrasonic-arduino/)
 * [Getting Readings from Lidar](https://learn.adafruit.com/adafruit-vl53l0x-micro-lidar-distance-sensor-breakout/arduino-code)
+* [Getting Readings from MPU9250](https://github.com/bolderflight/mpu9250)
 
 [![ESP32 Pinout](./ESP32/esp32DEVKIT.jpg)](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
 
@@ -247,3 +256,4 @@ Lithium Polymer (aka "LiPo") batteries are a type of battery now used in many co
 * [Datasheet for ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
 * [Datasheet for Servo Driver Hat](https://www.waveshare.com/w/upload/1/1b/Servo_Driver_HAT_User_Manual_EN.pdf)
 * [Data Sheet for Servo Motors](http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf)
+* [Data Sheet for MPU9250](https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
