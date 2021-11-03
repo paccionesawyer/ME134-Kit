@@ -110,6 +110,8 @@ Like with the ESP32, there is no specific package used to manage the Ultrasonic 
 
 ![Wiring HC-SR04 to RPI0](./RPI0UltrasonicWiring_bb.svg)
 
+## Getting Readings from the IMU [(MPU9250)](https://makersportal.com/blog/2019/11/11/raspberry-pi-python-accelerometer-gyroscope-magnetometer)
+
 ## Important Links and Information (RPi Zero W)
 
 * [Amazon Link](https://www.amazon.com/Vilros-Raspberry-Starter-Power-Premium/dp/B0748MPQT4)

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="277.76794mm"
+   height="80.43148mm"
+   viewBox="0 0 277.76794 80.43148"
+   version="1.1"
+   id="svg20494"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="codeOutline.svg">
+  <defs
+     id="defs20488">
+    <rect
+       x="145.14285"
+       y="43.089287"
+       width="12.85119"
+       height="17.008928"
+       id="rect20655" />
+    <rect
+       x="146.27679"
+       y="42.333332"
+       width="59.342262"
+       height="13.607143"
+       id="rect20649" />
+    <rect
+       x="8.8198948"
+       y="28.063299"
+       width="143.36313"
+       height="35.769611"
+       id="rect20588" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4689"
+       id="linearGradient1478"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.14883897,0,0,0.15027592,73.805213,162.84997)"
+       x1="26.648937"
+       y1="20.603781"
+       x2="135.66525"
+       y2="114.39767" />
+    <linearGradient
+       id="linearGradient4689">
+      <stop
+         style="stop-color:#5a9fd4;stop-opacity:1;"
+         offset="0"
+         id="stop4691" />
+      <stop
+         style="stop-color:#306998;stop-opacity:1;"
+         offset="1"
+         id="stop4693" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4671"
+       id="linearGradient1475"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.14883897,0,0,0.15027592,73.805213,162.84997)"
+       x1="150.96111"
+       y1="192.35176"
+       x2="112.03144"
+       y2="137.27299" />
+    <linearGradient
+       id="linearGradient4671">
+      <stop
+         style="stop-color:#ffd43b;stop-opacity:1;"
+         offset="0"
+         id="stop4673" />
+      <stop
+         style="stop-color:#ffe873;stop-opacity:1"
+         offset="1"
+         id="stop4675" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2795"
+       id="radialGradient1480"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.06348597,0.27904758,1.0031798e-7,55.625777,203.63929)"
+       cx="61.518883"
+       cy="132.28575"
+       fx="61.518883"
+       fy="132.28575"
+       r="29.036913" />
+    <linearGradient
+       id="linearGradient2795">
+      <stop
+         style="stop-color:#b8b8b8;stop-opacity:0.49803922;"
+         offset="0"
+         id="stop2797" />
+      <stop
+         style="stop-color:#7f7f7f;stop-opacity:0;"
+         offset="1"
+         id="stop2799" />
+    </linearGradient>
+    <rect
+       x="8.8198948"
+       y="28.063299"
+       width="144.11908"
+       height="58.826157"
+       id="rect20588-0" />
+    <rect
+       x="8.8198948"
+       y="28.063299"
+       width="143.36313"
+       height="35.769611"
+       id="rect20613" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="457.95083"
+     inkscape:cy="196.59857"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="958"
+     inkscape:window-height="568"
+     inkscape:window-x="953"
+     inkscape:window-y="600"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata20491">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-10.958757,-2.80995)">
+    <g
+       style="stroke:#00979c"
+       id="g2580"
+       transform="matrix(0.05716282,0,0,0.05716282,54.985583,5.8690832)">
+      <g
+         fill="none"
+         id="g2561">
+        <path
+           d="M 174,30 C 78.9,22.43 -1,135 38,222 c 38,94.4 181,120 249,44.4 65.9,-64.6 91.3,-164 172,-215 82,-56 214,-3.12 230,96.4 15.6,95.3 -87.1,188 -180,160 -68.7,-15.5 -118,-74.2 -146,-136 -34.5,-59 -79.6,-122 -150,-138 -12.5,-2.84 -25.4,-3.96 -38.2,-3.94 z"
+           stroke-width="59"
+           id="path2555" />
+        <path
+           d="M 118,165 H 238"
+           stroke-width="25"
+           id="path2557" />
+        <path
+           d="M 486,165 H 586 M 535,115 V 215"
+           stroke-width="32"
+           id="path2559" />
+      </g>
+      <path
+         d="M 84,485 77.6,462 H 37 l -6.6,23 H 8.7 L 43.1,369 h 30.6 l 34.4,116 z M 57.6,390 42.3,444.1 H 72.7 Z M 180,485 c 0,0 -11.7,-27.6 -18.3,-41 -3.83,-5.76 -11.4,-8.02 -18,-7.1 -0.6,15.7 -0.48,48.1 -0.48,48.1 h -21.9 V 369 c 0,0 33,-0.97 49.4,1.2 34.7,3.92 37,54.4 2.13,59.7 6.54,2.6 10.5,8.65 13.3,14.8 l 17.5,36.2 c 1.23,2.48 1.2,4.4 -2.34,4.38 z m -5.42,-82.1 c -0.1,-17.9 -18,-15.9 -31.3,-16 v 32.8 c 15.7,0.53 31,-1.07 31.3,-16.8 z M 302,455 c -10.6,24.5 -33.8,30.2 -55.8,29.8 h -26.9 v -116 l 40.9,0.2 c 50.6,1.65 52.4,56.2 41.7,86.4 z m -28,-61.3 c -10.2,-8.76 -21.4,-6.97 -32.8,-6.97 v 79.7 c 10,0 20.9,0.8 29.4,-5.4 18.1,-11.4 15.8,-54.6 3.35,-67.3 z M 407,442 c 2.17,58.6 -81.5,58.4 -84,12.7 -1.53,-14 -0.27,-28 -0.68,-42 v -44.2 h 21.9 l 0.4,83 c 2.57,22.9 33,20.9 37.6,8.2 4.66,-10.1 2.5,-21.5 2.98,-32.3 v -58.9 h 21.9 V 442 Z m 21,-56 v -17.9 h 73.5 V 386 h -25.6 v 80.4 h 25.6 v 18.1 H 428 v -18.1 h 25.6 V 386 Z m 155,99 -37.6,-84.4 V 485 H 525.5 V 369 h 26.9 l 37.4,83.6 c 0.1,-6 0.04,-83.6 0.04,-83.6 h 19.9 v 116 z m 117,-10 c -24.3,20.9 -66.7,16.3 -75.1,-24.9 -11.5,-62.6 22.4,-98.6 69.6,-77.6 29,16.3 27.4,83.4 5.5,103 z m -29.3,-88.7 c -20.7,-0.55 -23.7,20.6 -24.5,30.8 -0.17,19.3 -1.88,51.4 24.9,50 8.3,0 15.5,-6.02 18.2,-13.7 5.45,-12.1 9.56,-68.1 -18.6,-67.1 z M 676,13.4 v 2.34 h 5.15 v 13.6 h 2.66 v -13.6 h 5.2 V 13.4 Z m 14.8,0 v 15.9 h 2.43 V 15.7 l 4.3,13.6 h 2.4 l 4.1,-13.3 v 13.3 h 2.4 V 13.4 h -3.8 l -3.9,12.7 -4,-12.7 z"
+         fill="#00979c"
+         id="path2563" />
+    </g>
+    <g
+       id="g10033"
+       transform="matrix(0.95201044,0,0,0.95201044,129.52274,-155.17259)">
+      <path
+         style="fill:url(#linearGradient1478);fill-opacity:1;stroke-width:0.264583"
+         d="m 92.302209,165.94647 c -1.212759,0.006 -2.370916,0.10906 -3.389974,0.28938 -3.00202,0.53036 -3.54707,1.64045 -3.547071,3.68764 v 2.70371 h 7.094141 v 0.90123 h -7.094141 -2.662369 c -2.061755,0 -3.867087,1.23924 -4.431771,3.59668 -0.651357,2.70218 -0.680248,4.38839 0,7.2099 0.504277,2.10022 1.708558,3.59668 3.770312,3.59668 h 2.439128 v -3.24115 c 0,-2.34153 2.025953,-4.40696 4.431771,-4.40696 h 7.085872 c 1.972456,0 3.547071,-1.62406 3.54707,-3.60495 v -6.75514 c 0,-1.92256 -1.62189,-3.36677 -3.54707,-3.68764 -1.218667,-0.20286 -2.48314,-0.29502 -3.695898,-0.28938 z m -3.836459,2.17454 c 0.732776,0 1.331185,0.60818 1.331185,1.35599 0,0.74516 -0.598409,1.34772 -1.331185,1.34772 -0.735403,0 -1.331185,-0.60256 -1.331185,-1.34772 0,-0.74781 0.595782,-1.35599 1.331185,-1.35599 z"
+         id="path1948" />
+      <path
+         style="fill:url(#linearGradient1475);fill-opacity:1;stroke-width:0.264583"
+         d="m 100.42988,173.52843 v 3.1502 c 0,2.4423 -2.070604,4.49791 -4.431773,4.49791 h -7.085872 c -1.940939,0 -3.54707,1.66119 -3.547071,3.60495 v 6.75515 c 0,1.92255 1.671793,3.05337 3.547071,3.60494 2.245606,0.6603 4.399025,0.77963 7.085872,0 1.785978,-0.5171 3.547071,-1.55776 3.54707,-3.60494 v -2.70371 h -7.085872 v -0.90124 h 7.085872 3.547073 c 2.06175,0 2.83005,-1.43812 3.54707,-3.59668 0.74065,-2.22221 0.70914,-4.35922 0,-7.2099 -0.50953,-2.05249 -1.48269,-3.59668 -3.54707,-3.59668 z m -3.985289,17.10697 c 0.735404,0 1.331185,0.60257 1.331185,1.34772 0,0.7478 -0.595782,1.35599 -1.331185,1.35599 -0.732776,0 -1.331185,-0.60819 -1.331185,-1.35599 10e-7,-0.74515 0.598408,-1.34772 1.331185,-1.34772 z"
+         id="path1950" />
+      <ellipse
+         style="opacity:0.44382;fill:url(#radialGradient1480);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.07918;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1894"
+         cx="92.539795"
+         cy="199.73372"
+         rx="9.5067377"
+         ry="1.8434346" />
+    </g>
+    <text
+       xml:space="preserve"
+       id="text20586"
+       style="font-size:3.175px;line-height:1.25;font-family:Rubik;-inkscape-font-specification:Rubik;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect20588);"
+       transform="translate(1.6029277,7.8048955)"><tspan
+         x="8.8203125"
+         y="35.156384"><tspan
+           style="font-size:7.76111px">- Contantly Read Data from Sensors
+</tspan></tspan><tspan
+         x="8.8203125"
+         y="44.857769"><tspan
+           style="font-size:7.76111px">- Send Raw Data to RPi</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text20586-4"
+       style="font-size:3.175px;line-height:1.25;font-family:Rubik;-inkscape-font-specification:Rubik;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect20588-0);"
+       transform="translate(137.42201,7.8048955)"><tspan
+         x="8.8203125"
+         y="35.156384"><tspan
+           style="font-size:7.76111px">- Parse data from ESP32
+</tspan></tspan><tspan
+         x="8.8203125"
+         y="44.857769"><tspan
+           style="font-size:7.76111px">- Convert Raw Accelerometer Data to  </tspan></tspan><tspan
+         x="8.8203125"
+         y="54.559155"><tspan
+           style="font-size:7.76111px">Angles
+</tspan></tspan><tspan
+         x="8.8203125"
+         y="64.26054"><tspan
+           style="font-size:7.76111px">- Measure Error from our Ideal Angles
+</tspan></tspan><tspan
+         x="8.8203125"
+         y="73.961926"><tspan
+           style="font-size:7.76111px">- Feed Error to a Proportional Controller</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text20647"
+       style="font-size:3.175px;line-height:1.25;font-family:Rubik;-inkscape-font-specification:Rubik;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect20649);" />
+    <text
+       xml:space="preserve"
+       id="text20653"
+       style="font-size:3.175px;line-height:1.25;font-family:Rubik;-inkscape-font-specification:Rubik;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect20655);" />
+  </g>
+</svg>
