@@ -112,6 +112,45 @@ Like with the ESP32, there is no specific package used to manage the Ultrasonic 
 
 ## Getting Readings from the IMU [(MPU9250)](https://makersportal.com/blog/2019/11/11/raspberry-pi-python-accelerometer-gyroscope-magnetometer)
 
+## Getting Started with the Camera
+
+### [Simple Pictures and Videos](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera)
+
+1. First make sure that the camera interface is enabled by typing, `sudo raspi-config` then select  **3 Interface Options**
+2. Locate the Camera Module port
+3. Gently pull up on the edges of the port’s plastic clip
+4. Insert the Camera Module ribbon cable; make sure the connectors at the bottom of the ribbon cable are facing the contacts in the port.
+5. Push the plastic clip back into place
+6. Then try to get an image by typing
+
+        $ raspistill -o Desktop/image.jpg
+
+7. Now record a video with the Camera Module by using the following raspivid command:
+
+        $ raspivid -o Desktop/video.h264
+
+### [Getting OpenCV](https://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/)
+
+1. Next you want to install some dependencies
+
+        $ sudo apt-get update && sudo apt-get upgrade
+        $ sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng-dev
+        $ sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+        $ sudo apt-get install libxvidcore-dev libx264-dev
+        $ sudo apt-get install libfontconfig1-dev libcairo2-dev
+        $ sudo apt-get install libgdk-pixbuf2.0-dev libpango1.0-dev
+        $ sudo apt-get install libgtk2.0-dev libgtk-3-dev
+        $ sudo apt-get install libatlas-base-dev gfortran
+        $ sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103
+        $ sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5
+        $ sudo apt-get install python3-dev
+
+2. Now pip install opencv
+
+        $ pip3 install opencv-python
+
+3. Now to use the library you can `import cv2` in a python file. For AI detection of face, bodies, etc. use *haarcascade*.
+
 ## Important Links and Information (RPi Zero W)
 
 * [Amazon Link](https://www.amazon.com/Vilros-Raspberry-Starter-Power-Premium/dp/B0748MPQT4)
