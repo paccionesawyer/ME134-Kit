@@ -134,20 +134,16 @@ Like with the ESP32, there is no specific package used to manage the Ultrasonic 
 1. Next you want to install some dependencies
 
         $ sudo apt-get update && sudo apt-get upgrade
-        $ sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng-dev
-        $ sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
-        $ sudo apt-get install libxvidcore-dev libx264-dev
-        $ sudo apt-get install libfontconfig1-dev libcairo2-dev
-        $ sudo apt-get install libgdk-pixbuf2.0-dev libpango1.0-dev
-        $ sudo apt-get install libgtk2.0-dev libgtk-3-dev
-        $ sudo apt-get install libatlas-base-dev gfortran
-        $ sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103
-        $ sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5
-        $ sudo apt-get install python3-dev
+        $ sudo apt-get install libhdf5-dev
+        $ sudo apt-get install libatlas-base-dev
+        $ sudo apt-get install libjasper-dev 
+        $ sudo apt-get install libqtgui4 
+        $ sudo apt-get install libqt4-tes
+
 
 2. Now pip install opencv
 
-        $ pip3 install opencv-python
+        $ sudo apt-get install python3-opencv
 
 3. Now to use the library you can `import cv2` in a python file. For AI detection of face, bodies, etc. use *haarcascade*.
 
